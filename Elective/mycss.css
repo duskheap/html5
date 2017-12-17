@@ -1,0 +1,52 @@
+<style>
+header img {
+    height="200";
+    width="300"; 
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b1b17;
+ }
+ nav li{
+    float: left;
+}
+
+nav a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+article {
+	padding: 50px;
+    padding-right: 50px;
+}
+body {
+	    background-attachment: fixed;
+}
+
+mark {
+    background-color: #835c3b;
+    color: black;
+}
+
+a {
+	color: hotpink;
+}
+aside {
+    font-size:larger;
+    font-style:italic;
+    color:right;
+    float:right;
+    width:750px;
+    padding-right: 50px;
+}
+</style>
