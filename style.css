@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+html
+{
+	background-color: #d3d3d3;
+}
+
+.container
+{
+	margin:150px 0 0 0;
+	text-align: center;
+}
+
+.button
+{
+	position:relative;
+	width: 60px;
+	height: 50px;
+	border:none;
+	background: none;
+	top: -620px;
+	font-size: 36px;
+	margin:11px;
+	font-family:'Varela Round', sans-serif;
+	font-weight: lighter;
+	color: #ffffff;
+}
+
+.button:active
+{
+	background-color: #938a82;
+	transform: translateY(4px);
+	opacity: 0.1;
+	border:none;
+}
+
+.display input
+{
+	position: relative;
+	height: 100px;
+	width: 345px;
+	text-align: right;
+	font-size: 80px;
+	color: #ffffff;
+	opacity: 20.5;
+	top: -650px;
+	background: none;
+	border: none;
+}
