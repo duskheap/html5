@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>CRUD</title>
+    <link rel="stylesheet" href="">
+  </head>
+  <style>
+    table, tr, td {
+      border-style: double;
+      padding: 5px;
+    }
+
+    li {
+      text-indent: 20px;
+    }
+  </style>
+  <body>
+  <div class="main-container">
+    <div class="form-container">
+    <h1>BASIC CRUD</h1>
+    <p>Complete the application to do the following: </p>
+    <li>Add new record</li>
+    <li>Edit existing record</li>
+    <li>Delete a record</li>
+    <p>Note: The form should not accept empty on invalid inputs.</p>
+
+    <fieldset>
+      <legend>User Profile</legend>
+      <div class="form">
+        Name:<input type="text" id="name" placeholder="Name" required />
+        <br><br>
+        Birthday:<input type="date" id="birthday" placeholder="Birthday" required />
+        <br><br>
+        Age:<input type ="text" id="age" placeholder="Age" required />
+        <br><br>
+        Gender:<select option ="gender" id="gender">
+          <option value = "Male" id = "male">Male</option>
+          <option value = "Female" id = "female">Female</option>
+        <br><br>
+        </select>
+        <br><br>
+        <input type="button" value="Submit" id="btnSave" />
+        
+      </div>
+    </div>
+    </fieldset><br><br>
+    <div class="table-container">
+      <table id="table1">
+        <thead id="table-head">
+          <tr>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Action</th>
+          </tr>
+          
+          
+
+        </thead>
+      </table>
+    </div>
+    </div>
+    <script src="table.js" charset="utf-8"></script>
+    <script src="scroll.js" charset="utf-8"></script>
+  </body>
+</html>
